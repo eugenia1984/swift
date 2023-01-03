@@ -11,14 +11,14 @@
 
 -> **Preparation**: This introductory day prepares you for the course, explains core concepts, and helps you avoid the most common mistakes faced by other learners.
 
-- [**Day 0**](https://www.hackingwithswift.com/100/swiftui/0) – tips and advice before you start -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day01.md)
+- [**Day 0**](https://www.hackingwithswift.com/100/swiftui/0) – tips and advice before you start -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day00.md)
  
 
 -> **Days 1-14: Introduction to Swift**: The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper.
 
 Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
-Day 1 – variables, constants, strings, and numbers
+Day 1 – variables, constants, strings, and numbers -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day00.md)
 
 Day 2 – Booleans, string interpolation, and checkpoint 1
 
