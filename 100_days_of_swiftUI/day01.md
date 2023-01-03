@@ -17,7 +17,7 @@ The content of both the article and video are identical: both are packed with ti
 
 ---
 
-## [The article](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer)
+## [<img src="https://img.icons8.com/external-tone-royyan-wijaya/40/null/external-article-note-me-in-your-life-tone-royyan-wijaya-13.png"/> The article](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer)
 
 ### How to Become an iOS Developer in 2021
 
