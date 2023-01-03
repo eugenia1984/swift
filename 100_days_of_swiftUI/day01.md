@@ -241,79 +241,163 @@ Swift really loves constants, and in fact **will recommend you use one if you cr
 
 1. Question 1/6: Which of these lines of code create new variables?
 
-Option 1: ```message = "Good morning, Dave!"```
+Option 1: 
+```SWIFT
+message = "Good morning, Dave!"
+```
 
-Option 2: ```var operatingSystem = "macOS"``` -> right answer
+Option 2: 
+```Swift
+var operatingSystem = "macOS"
+``` 
+-> right answer
 
 
 2. Question 2/6: Which of these lines of code create new variables?
 
-Option 1: ```var address = "321 Park Lane"``` -> right answer
+Option 1: 
+```Swift
+var address = "321 Park Lane"
+```
+-> right answer
 
-Option 2: ```favoriteColor = "heliotrope"```
+Option 2: 
+```Swiftf
+avoriteColor = "heliotrope"
+```
 
 3. Question 3/6: Which of these lines of code create new variables?
 
-Option 1: ```var dinosaur = "T-Rex"``` -> right answer
+Option 1: 
+```Swift
+var dinosaur = "T-Rex"
+``` 
+-> right answer
 
-Option 2: ```city = "Paris"```
+Option 2: 
+```Swift
+city = "Paris"
+```
 
 4. Question 4/6: Which of these lines of code create new variables?
 
-Option 1: ```var pirate = "LeChuck"```  -> right answer
+Option 1: 
+```Swift
+var pirate = "LeChuck"
+```  -
+> right answer
 
-Option 2: ```spaceship = "Nostromo"```
+Option 2: 
+```Swift
+spaceship = "Nostromo"
+```
 
 5. Question 5/6: Which of these lines of code create new variables?
 
-Option 1: ```status = "success"```
+Option 1: 
+```Swift
+status = "success"
+```
 
-Option 2: ```var name = "Sophie"```  -> right answer
+Option 2: 
+```Swift
+var name = "Sophie"
+``` 
+-> right answer
 
 6. Question 6/6: Which of these lines of code create new variables?
 
-Option 1: ```var str = "Hello, playground" ``` -> right answer
+Option 1: 
+```Swiftv
+ar str = "Hello, playground" 
+```
+-> right answer
 
-Option 2: ```user = "twostraws"```
+Option 2: 
+```Swift
+user = "twostraws"
+```
 
 
 ### <img src="https://img.icons8.com/stickers/40/null/test-results.png"/> Test : Constants
 
 1. Question 1/6: Which of these lines create constants?
 
-Option 1: ```height = 172.1```
+Option 1: 
+```Swift
+height = 172.1
+```
 
-Option 2: ```let width = 14.0```  -> right answer
+Option 2: 
+```Swift
+let width = 14.0
+```  
+-> right answer
 
 2. Question 2/6: Which of these lines create constants?
 
-Option 1: ``` let username = "twostraws"```  -> right answer
+Option 1: 
+```Swift
+let username = "twostraws"
+``` 
+-> right answer
 
-Option 2: ``` var status = "success"``` 
+Option 2: 
+```Swift
+var status = "success"
+``` 
 
 3. Question 3/6: Which of these lines create constants?
 
-Option 1: ```let tweeted = false```  -> right answer
+Option 1: 
+```Swift
+let tweeted = false
+```
+-> right answer
 
-Option 2: ```var isRead = true```
+Option 2: 
+```Swift
+var isRead = true
+```
 
 4. Question 4/6: Which of these lines create constants?
 
-Option 1: ```let password = "fr0sti3s"```  -> right answer
+Option 1: 
+```Swift
+let password = "fr0sti3s"
+``` 
+-> right answer
 
-Option 2: ```var season = "summer"```
+Option 2: 
+```Swift
+var season = "summer"
+```
 
 5.  Question 5/6: Which of these lines create constants?
 
-Option 1: ```loggedIn = false```
+Option 1: 
+```Swift
+loggedIn = false
+```
 
-Option 2: ```let enabled = true``` -> right answer
+Option 2: 
+```Swift
+let enabled = true
+```
+-> right answer
 
 6. Question 6/6: Which of these lines create constants?
 
-Option 1: ```let age = 26``` -> right answer
+Option 1: 
+```Swift
+let age = 26
+``` 
+-> right answer
 
-Option 2: ```var score = 1000```
+Option 2: 
+```Swift
+var score = 1000
+```
 
 ---
 
