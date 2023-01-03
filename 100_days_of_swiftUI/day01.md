@@ -118,7 +118,7 @@ Tip: The other line in a macOS playground is ```import Cocoa```, which **brings 
 
 There are really four pieces of syntax in there:
 
-- The **var ++keyword means **“create a new variable”**; it saves a little typing.
+- The **var** keyword means **“create a new variable”**; it saves a little typing.
 
 - We’re calling our variable **greeting**. You can call your variable anything you want, but most of the time **you’ll want to make it descriptive**.
 
