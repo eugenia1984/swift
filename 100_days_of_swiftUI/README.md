@@ -18,7 +18,7 @@
 
 Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
-- [**Day 1**](https://www.hackingwithswift.com/100/swiftui/1) – **variables**, **constants**, **strings**, and **numbers** -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day00.md)
+- [**Day 1**](https://www.hackingwithswift.com/100/swiftui/1) – **variables**, **constants**, **strings**, and **numbers** -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day01.md)
 
 Day 2 – Booleans, string interpolation, and checkpoint 1
 
