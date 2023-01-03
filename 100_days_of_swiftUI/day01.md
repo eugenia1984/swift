@@ -49,43 +49,61 @@ There are 7 sections to this article:
 
 ---
 
-What are the core skills you need to be an iOS developer?
-What is the absolute minimum set of skills you need to get a job in iOS development? I think there are five things in total:
+## What are the core skills you need to be an iOS developer?
 
-Swift
-SwiftUI
-Working with data
-Networking
-Version control
+What is the absolute **minimum set of skills you need to get a job in iOS development**? I think there are five things in total:
+
+
+1. **Swift**
+
+2. **SwiftUI**
+
+3. **Working with data**
+
+4. **Networking**
+
+5. **Version control**
+
 That’s it. And that list is super short intentionally, for a number of reasons:
 
-The more you learn, the more you realize there is to learn, so it’s easy to spend so much time studying and practicing that you lose sight of the actual goal – you want to get a job as an iOS developer, not just sit around learning new stuff.
-It’s almost certain you’ll be joining a team that already has an existing app they want you to help develop, so unless you get extremely lucky they’ll need to teach you a whole lot of stuff regardless – if you try and cram a bunch of extra topics in beforehand there’s a good chance you’re wasting your time.
-Two of those five things are really big and really complex, and you can spend months just trying to wrap your head around them without venturing anywhere else.
-But most importantly, if you get those five things right you can build a huge range of apps. Sure, your code won’t be perfect but that’s okay – the only way to write great code is to write a whole bunch of bad code first.
+1. The more you learn, the more you realize there is to learn, so it’s easy to spend so much time studying and practicing that you lose sight of the actual goal – you want to get a job as an iOS developer, not just sit around learning new stuff.
+
+2. It’s almost certain you’ll be joining a team that already has an existing app they want you to help develop, so unless you get extremely lucky they’ll need to teach you a whole lot of stuff regardless – if you try and cram a bunch of extra topics in beforehand there’s a good chance you’re wasting your time.
+
+3. Two of those five things are really big and really complex, and you can spend months just trying to wrap your head around them without venturing anywhere else.
+
+4. But most importantly, if you get those five things right you can build a huge range of apps. Sure, your code won’t be perfect but that’s okay – the only way to write great code is to write a whole bunch of bad code first.
+
 Let me break down the five things into smaller chunks.
 
-Learning Swift
-First on the list of Swift. This is the core programming language from Apple – it has no concept of showing information on an iPhone’s screen, or downloading data from the internet, it’s just a language like JavaScript or Python. You use it to create variables, write functions, and so on; it’s just pure code.
+### Learning Swift
+
+First on the list of **Swift**. This **is the core programming language from Apple** – it has no concept of showing information on an iPhone’s screen, or downloading data from the internet, **it’s just a language** like JavaScript or Python. You use it to create variables, write functions, and so on; it’s just pure code.
 
 Swift is only a few years old, which means it uses almost every cutting-edge language feature out there. On the one hand this means you get to avoid all the crusty old behaviors that are common in older languages like C++ and Java, but it does also mean it has quite a few more advanced features that might blow your mind at first. And that’s okay: lots of parts of Swift are relatively straightforward, and some parts will take you longer to really figure out, so just take your time and keep at it – you’ll get there!
 
-Learning SwiftUI
-The second core skill I listed was SwiftUI, which is a framework from Apple that lets us write apps for iOS, macOS, tvOS, and even watchOS using Swift. So, while Swift is the programming language, SwiftUI provides the tools that makes apps – how to show pictures, text, buttons, text boxes, tables of data, and more. Just to be clear, SwiftUI isn’t somehow a replacement for Swift – it’s a framework built on top of Swift that lets us make apps, so you need both Swift and SwiftUI to succeed.
+## Learning SwiftUI
+
+The second core skill I listed was **SwiftUI**, which **is a framework from Apple** that lets us write **apps for iOS, macOS, tvOS, and even watchOS using Swift**. So, **while Swift is the programming language, SwiftUI provides the tools that makes apps** – how to show pictures, text, buttons, text boxes, tables of data, and more. Just to be clear, SwiftUI isn’t somehow a replacement for Swift – it’s a framework built on top of Swift that lets us make apps, so you need both Swift and SwiftUI to succeed.
 
 If you thought Swift was new, you ain’t seen nothing yet – as I record this SwiftUI isn’t even two years old! But despite being so new, the iOS community has embraced it wholeheartedly because it’s just so awesome to work with.
 
-Now, Apple has an older framework for building iOS apps called UIKit, and if you ask a bunch of folks whether you should learn SwiftUI first or UIKit first you’ll get a range of answers. In fact, there’s every chance that if you look in the comments for the YouTube video for this article you’ll find a bunch of folks telling me I don’t know what I’m talking about and that UIKit should be a priority.
+Now, Apple has an older framework for building iOS apps called **UIKit**, and if you ask a bunch of folks whether you should learn SwiftUI first or UIKit first you’ll get a range of answers. In fact, there’s every chance that if you look in the comments for the YouTube video for this article you’ll find a bunch of folks telling me I don’t know what I’m talking about and that UIKit should be a priority.
 
 So, in case you were curious here’s why I think you should focus on SwiftUI as a core skill:
 
-It is significantly easier than UIKit, and I mean significantly – it takes maybe a quarter of the code to get the same results that you would get in UIKit, plus you have fewer things to learn along the way. This means you get a lot of momentum because you build things faster, see your results faster, and iterate on those results faster, which is super motivating while you’re learning.
-SwiftUI was built for Swift, using language features to help you avoid problems and get maximum performance. For example, if you change some data on one screen of an app, SwiftUI will automatically make sure that new data is updated anywhere else in your app that uses it – you don’t need to write code to keep it all in sync yourself, which is surprisingly complex. In comparison, UIKit was written for Apple’s older language, Objective-C, and as a result has all sorts of quirks and cruft that came about as a result of its age.
-SwiftUI works on all of Apple’s platforms, so you can take what you learned on iOS and use it to build a macOS or watchOS app with almost identical code. Sure, some things like the Digital Crown only exist on one device, but the vast majority of what you learn will work everywhere.
-But most importantly, SwiftUI is where things are going. If you were applying for a job right now – today – then fine you will probably need to know UIKit, but as you’re reading this article it means you’re much earlier in the process. Yes, UIKit is more popular now, but by the time you finish learning 6, 9, or even 12 months from now, SwiftUI will be the dominant UI framework.
+1. It is significantly easier than UIKit, and I mean significantly – it takes maybe a quarter of the code to get the same results that you would get in UIKit, plus you have fewer things to learn along the way. This means you get a lot of momentum because you build things faster, see your results faster, and iterate on those results faster, which is super motivating while you’re learning.
+
+2. SwiftUI was built for Swift, using language features to help you avoid problems and get maximum performance. For example, if you change some data on one screen of an app, SwiftUI will automatically make sure that new data is updated anywhere else in your app that uses it – you don’t need to write code to keep it all in sync yourself, which is surprisingly complex. In comparison, UIKit was written for Apple’s older language, Objective-C, and as a result has all sorts of quirks and cruft that came about as a result of its age.
+
+3. SwiftUI works on all of Apple’s platforms, so you can take what you learned on iOS and use it to build a macOS or watchOS app with almost identical code. Sure, some things like the Digital Crown only exist on one device, but the vast majority of what you learn will work everywhere.
+
+4. But most importantly, SwiftUI is where things are going. If you were applying for a job right now – today – then fine you will probably need to know UIKit, but as you’re reading this article it means you’re much earlier in the process. Yes, UIKit is more popular now, but by the time you finish learning 6, 9, or even 12 months from now, SwiftUI will be the dominant UI framework.
+
 Seriously, the world’s biggest companies are choosing SwiftUI, including Apple itself, and when Apple recently launched widgets in iOS 14 they made it a requirement that you must use SwiftUI – UIKit just isn’t possible there.
 
-Networking and data
+## Networking and data
+
 The third and fourth skills I mentioned were networking and working with data. Compared to Swift and SwiftUI these are a piece of cake, or at least they are at the level you need to be in order to get a junior iOS developer job.
 
 Networking is the practice of fetching data from the internet, or sending data from the local device to a server somewhere. There are stacks and stacks of ways of doing this, but honestly the absolute least you need to know is how to fetch some JSON from a server.
