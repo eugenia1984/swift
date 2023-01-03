@@ -193,6 +193,12 @@ If you can, prefer to use constants rather than variables – not only does it g
 
 ---
 
+Variables and constant:
+
 <img width="965" alt="variable_and_constant" src="https://user-images.githubusercontent.com/72580574/210389780-abf4ba66-62a5-420e-b4e5-a1fc5292f0c4.png">
 
+
+Print function:
+
+<img width="531" alt="print_function" src="https://user-images.githubusercontent.com/72580574/210390568-ad484f97-1241-49fc-b261-18d1fd7762d3.png">
 
