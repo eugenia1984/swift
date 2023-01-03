@@ -409,6 +409,29 @@ Strings are really powerful in Swift, and we’ve only really scratched the surf
 
 ###  <img src="https://img.icons8.com/dotty/40/null/extra-features.png"/>  Optional - Why does Swift need multi-line strings?
 
+
+**Swift’s standard strings start and end with quotes, but must never contain any line breaks**. For example, this is a standard string:
+
+```Swift
+var quote = "Change the world by being yourself"
+```
+
+That works fine for small pieces of text, but becomes ugly in source code if you have lots of text you want to store. That’s where multi-line strings come in: if you use triple quotes you can write your strings across as many lines as you need, which means the text remains easy to read in your code:
+
+
+```Swift
+var burns = """
+The best laid schemes
+O’ mice and men
+Gang aft agley
+"""
+```
+
+Swift sees those line breaks in your string as being part of the text itself, so that string actually contains three lines.
+
+*Tip*: Sometimes you will want to have long strings of text in your code without using multiple lines, but this is quite rare. Specifically, this is most commonly important if you plan to share your code with others – if they see an error message in your program they might want to search your code for it, and if you’ve split it across multiple lines their search might fail.
+
+
 ### <img src="https://img.icons8.com/stickers/40/null/test-results.png"/> Test :  Multi-line strings
 
 
