@@ -667,45 +667,87 @@ print(120.isMultiple(of: 3))
 1. Question 1/6: Which code creates an integer?
 
 
-Option 1: ```Swift var mortgageRemaining = 100_000``` -> True
+Option 1: 
+```Swift 
+var mortgageRemaining = 100_000
+``` 
+-> True
 
-Option 2: ```Swift var dogBreed = "samoyed" ``` -> this create a String
+Option 2: 
+```Swift 
+var dogBreed = "samoyed" 
+```
+-> this create a String
 
 2. Question 2/6: Which code creates an integer?
 
-Option 1: ```Swift var speed = 88``` -> True
+Option 1: 
+```Swift 
+var speed = 88
+``` 
+-> True
 
-Option 2: ```Swift var age = "23"``` -> Even though this has a number inside the quotes, this still creates a string
+Option 2: 
+```Swift
+var age = "23"
+``` 
+-> Even though this has a number inside the quotes, this still creates a string
 
 3. Question 3/6: Which code creates an integer?
 
-Option 1: ```Swift var repeatCount = 82 ``` -> True
+Option 1: 
+```Swift 
+var repeatCount = 82 
+```
+-> True
 
-Option 2: ```Swift var selectedWood = "mahogany" ``` -> This creates a string.
+Option 2: 
+```Swift 
+var selectedWood = "mahogany" 
+```
+-> This creates a string.
 
 4. Question 4/6: Which code creates an integer?
 
-Option 1: ```Swift var highScore = 328_556``` -> True
+Option 1: 
+```Swift
+var highScore = 328_556
+```
+-> True
 
-Option 2: ```Swift var sizeInInches = "27"``` -> Even though this has a number inside the quotes, this still creates a string
+Option 2:
+```Swift
+var sizeInInches = "27"
+``` 
+-> Even though this has a number inside the quotes, this still creates a string
 
 5. Question 5/6: Which code creates an integer?
 
-Option 1:  ```Swift var currentSong = "Rainbow to the Stars" ``` -> This creates a string.
+Option 1:  
+```Swift 
+var currentSong = "Rainbow to the Stars" 
+```
+-> This creates a string.
 
-Option 2: ```Swift var power = 9001 ``` -> True
+Option 2: 
+```Swift
+var power = 9001 
+```
+-> True
 
 6. Question 6/6: Which code creates an integer?
 
 Option 1: 
 ```Swift 
 var winner = "Miguel" 
-``` -> This creates a string.
+``` 
+-> This creates a string.
 
 Option 2: 
 ```Swift 
 var rating = 5 
-``` -> True
+``` 
+-> True
 
 
 
