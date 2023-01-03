@@ -20,7 +20,7 @@ Regardless of whether or not you go over the optional extra reading, you’ll fi
 
 - [**Day 1**](https://www.hackingwithswift.com/100/swiftui/1) – **variables**, **constants**, **strings**, and **numbers** -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day01.md)
 
-Day 2 – Booleans, string interpolation, and checkpoint 1
+- [**Day 2**](https://www.hackingwithswift.com/100/swiftui/2) – **Booleans**, **string interpolation**, and **checkpoint 1** -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day02.md)
 
 Day 3 – Arrays, dictionaries, sets, and enums
 
