@@ -96,7 +96,7 @@ There’s a lot of code shown off in this book, and I really want to encourage y
 
 To run the code in this book you should have installed **Xcode 13.0 or later from the Mac App Store**. It’s free, and includes everything you need to follow along.
 
-We’ll be using a **Swift Playground** for all the code in this book. You can create one by launching Xcode, then going to the File menu and choosing ````New > Playground````. When you’re asked what kind of playground to create, choose **Blank** from the macOS tab, then save it somewhere you can get to easily.
+We’ll be using a **Swift Playground** for all the code in this book. You can create one by launching Xcode, then going to the File menu and choosing ````New > Playground````. When you’re asked what kind of playground to create, choose **Blank** from the **macOS tab**, then save it somewhere you can get to easily.
 
 **Playgrounds are like little sandboxes where you can try out Swift code easily, seeing the result of your work side by side with the code**. You can use one playground for all the work you’ll be doing, or create new a playground for each chapter – do whatever works best for you.
 
