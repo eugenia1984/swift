@@ -857,6 +857,27 @@ The answer is that it can’t be safe, which is why it isn’t allowed. This wil
 
 ###  <img src="https://img.icons8.com/dotty/40/null/extra-features.png"/>  Optional - Why is Swift a type-safe language?
 
+
+**Swift lets us create variables as strings and integers, but also many other types of data too**. **When you create a variable Swift can figure out what type the variable is based on what kind of data you assign to it, and from then on that variable will always have that one specific type**.
+
+For example, this creates a new variable called meaningOfLife equal to 42:
+
+```Swift
+var meaningOfLife = 42
+```
+
+Because we assigned 42 as the initial value of meaningOfLife, Swift will assign it the type **integer – a whole number**. It’s a variable, which means **we can change its value as often as we need to, but we can’t change its type: it will always be an integer**.
+
+This is extremely helpful when building apps, because it means Swift will make sure we don’t make mistakes with our data. For example, we can’t write this:
+
+```Swift
+meaningOfLife = "Forty two"
+```
+
+That tries to assign a **string** to a **variable that is an integer**, which isn’t allowed. Although we rarely make such an obvious mistake, you will find that this type safety helps out every single day you’re writing code with Swift.
+
+Think about it: we just created one variable then tried to change its type, which will obviously fail. But as your programs grow in size and complexity, it becomes impossible to keep the types of your variables in your head at all times, so we’re effectively shifting that work on to Swift instead.
+
 ---
 
  :computer: [See the code here](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/playground01.swift)
