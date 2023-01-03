@@ -836,6 +836,25 @@ In case you were curious, the reason floating-point numbers are complex is becau
 
 ###  <img src="https://img.icons8.com/dotty/40/null/extra-features.png"/>  Optional - Why does Swift need both Doubles and Integers?
 
+
+Swift gives us several different ways of storing numbers in our code, and they are designed to solve different problems. Swift doesn’t let us mix them together because doing so will (as in, 100% guaranteed) lead to problems.
+
+The two main types of numbers you’ll use are called **integers** and **doubles**. **Integers hold whole numbers**, such as 0, 1, -100, and 65 million, whereas **doubles hold decimal numbers**, such as 0.1, -1.001, and 3.141592654.
+
+**When creating a numeric variable, Swift decides whether to consider it an integer or a double based on whether you include a decimal point**. For example:
+
+```Swift
+var myInt = 1
+var myDouble = 1.0
+```
+
+As you can see, they both contain the number 1, but the former is an integer and the latter a double.
+
+Now, if they both contain the number 1, you might wonder why we can’t add them together – why can’t we write ```var total = myInt + myDouble```? The answer is that Swift is playing it safe: we can both see that 1 plus 1.0 will be 2, but your double is a variable so it could be modified to be 1.1 or 3.5 or something else. How can Swift be sure it’s safe to add an integer to a double – how can it be sure you won’t lose the 0.1 or 0.5?
+
+The answer is that it can’t be safe, which is why it isn’t allowed. This will annoy you at first, but trust me: it’s helpful.
+
+
 ###  <img src="https://img.icons8.com/dotty/40/null/extra-features.png"/>  Optional - Why is Swift a type-safe language?
 
 ---
