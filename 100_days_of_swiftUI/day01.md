@@ -193,7 +193,6 @@ If you can, prefer to use constants rather than variables – not only does it g
 
 ---
 
-<img width="965" alt="variable_and_constant" src="https://user-images.githubusercontent.com/72580574/210389493-419d6d15-24a3-40e6-8f5a-690e8f3ff99d.png">
-
+<img width="965" alt="variable_and_constant" src="https://user-images.githubusercontent.com/72580574/210389780-abf4ba66-62a5-420e-b4e5-a1fc5292f0c4.png">
 
 
