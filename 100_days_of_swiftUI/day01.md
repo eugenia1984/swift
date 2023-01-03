@@ -1,7 +1,7 @@
 # <img src="https://img.icons8.com/color/48/null/swift.png"/> 100 Days of SwiftUI!
 
 ---
-## <img src="https://img.icons8.com/color/38/null/swift.png"/> Day 02
+## <img src="https://img.icons8.com/color/38/null/swift.png"/> Day 01
 
 ---
 
@@ -15,45 +15,45 @@ Today you have seven tutorials to complete. If you want to dive deeper into each
 
 I know, I know: the temptation is strong to continue on to watch more videos and take more tests beyond those linked below, but remember: don’t rush ahead! It’s much better to do one hour a day every day than do chunks with large gaps between.
 
-1. Introduction: Why Swift?
+1. [Introduction: Why Swift?](https://www.hackingwithswift.com/quick-start/beginners/why-swift)
 
-2. Introduction: About this course
+2. [Introduction: About this course](https://www.hackingwithswift.com/quick-start/beginners/about-this-course)
 
-3. Introduction: How to follow along
+3. [Introduction: How to follow along](https://www.hackingwithswift.com/quick-start/beginners/how-to-follow-along)
 
-4. How to create variables and constants
+4. [How to create variables and constants](https://www.hackingwithswift.com/quick-start/beginners/how-to-create-variables-and-constants)
 
-Optional: Why does Swift have variables?
+Optional: [Why does Swift have variables?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-variables)
 
-Optional: Why does Swift have constants as well as variables?
+Optional: [Why does Swift have constants as well as variables?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-constants-as-well-as-variables)
 
-Test: Variables
+Test: [Variables](https://www.hackingwithswift.com/review/variables)
 
-Test: Constants
+Test: [Constants](https://www.hackingwithswift.com/review/constants)
 
-5. How to create strings
+5. [How to create strings](https://www.hackingwithswift.com/quick-start/beginners/how-to-create-strings)
 
-Optional: Why does Swift need multi-line strings?
+Optional: [Why does Swift need multi-line strings?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-need-multi-line-strings)
 
-Test: Multi-line strings
+Test: [Multi-line strings](https://www.hackingwithswift.com/review/multi-line-strings)
 
-6. How to store whole numbers
+6. [How to store whole numbers](https://www.hackingwithswift.com/quick-start/beginners/how-to-store-whole-numbers)
 
-Test: Strings and integers
+Test: [Strings and integers](https://www.hackingwithswift.com/review/strings-and-integers)
 
-7. How to store decimal numbers
+7. [How to store decimal numbers](https://www.hackingwithswift.com/quick-start/beginners/how-to-store-decimal-numbers)
 
-Optional: Why does Swift need both Doubles and Integers?
+Optional: [Why does Swift need both Doubles and Integers?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-need-both-doubles-and-integers)
 
-Optional: Why is Swift a type-safe language?
+Optional: [Why is Swift a type-safe language?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-is-swift-a-type-safe-language)
 
 When you’re finished, don’t forget to tell other people about your progress. Yes, this is only day one, but the more motivation you get now the more you’ll be able to power through when things get tougher!
 
-**Reminder**: I have a free iOS app that helps you practice Swift right on your iPhone and iPad. It contains alternative lessons that might help these new concepts sink in, plus lots more bonus activities. And did I mention it was free? Download it here.
+**Reminder**: I have a free iOS app that helps you practice Swift right on your iPhone and iPad. It contains alternative lessons that might help these new concepts sink in, plus lots more bonus activities. And did I mention it was free? [Download it here](https://itunes.apple.com/app/id1440611372).
 
 ### Tips
 
-You can download Xcode from the Mac App Store by clicking here.
+You can download Xcode from the Mac App Store by [clicking here](https://apps.apple.com/gb/app/xcode/id497799835?mt=12).
 
 As you progress in these early days you’ll build up lots of code from each day. You can keep it in different playgrounds if you want, or you can delete it – it’s down to you.
 
