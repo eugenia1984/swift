@@ -697,9 +697,15 @@ Option 2: ```Swift var power = 9001 ``` -> True
 
 6. Question 6/6: Which code creates an integer?
 
-Option 1: ```Swift var winner = "Miguel" ``` -> This creates a string.
+Option 1: 
+```Swift 
+var winner = "Miguel" 
+``` -> This creates a string.
 
-Option 2: ```Swift var rating = 5 ``` -> True
+Option 2: 
+```Swift 
+var rating = 5 
+``` -> True
 
 
 
