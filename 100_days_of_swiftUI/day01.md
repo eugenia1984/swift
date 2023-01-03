@@ -272,8 +272,47 @@ Option 2: ```var name = "Sophie"```  -> right answer
 
 6. Question 6/6: Which of these lines of code create new variables?
 
-Option 1: ```var str = "Hello, playground" ``` > right answer
+Option 1: ```var str = "Hello, playground" ``` -> right answer
 
 Option 2: ```user = "twostraws"```
+
+
+### Test : Constants
+
+1. Question 1/6: Which of these lines create constants?
+
+Option 1: ```height = 172.1```
+
+Option 2: ```let width = 14.0```  -> right answer
+
+2. Question 2/6: Which of these lines create constants?
+
+Option 1: ``` let username = "twostraws"```  -> right answer
+
+Option 2: ``` var status = "success"``` 
+
+3. Question 3/6: Which of these lines create constants?
+
+Option 1: ```let tweeted = false```  -> right answer
+
+Option 2: ```var isRead = true```
+
+4. Question 4/6: Which of these lines create constants?
+
+Option 1: ```let password = "fr0sti3s"```  -> right answer
+
+Option 2: ```var season = "summer"```
+
+5.  Question 5/6: Which of these lines create constants?
+
+Option 1: ```loggedIn = false```
+
+Option 2: ```let enabled = true``` -> right answer
+
+6. Question 6/6: Which of these lines create constants?
+
+Option 1: ```let age = 26``` -> right answer
+
+Option 2: ```var score = 1000```
 
 ---
