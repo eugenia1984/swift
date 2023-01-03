@@ -830,6 +830,10 @@ Many older APIs use a slightly different way of storing decimal numbers, called 
 
 In case you were curious, the reason floating-point numbers are complex is because computers are trying to use binary to store complicated numbers. For example, if you divide 1 by 3 we know you get 1/3, but that can’t be stored in binary so the system is designed to create very close approximations. It’s extremely efficient, and the error is so small it’s usually irrelevant, but at least you know why Swift doesn’t let us mix Int and Double by accident!
 
+
+<img width="478" alt="decimal" src="https://user-images.githubusercontent.com/72580574/210423240-97395ce4-53b8-4035-be38-f10fc3155dae.png">
+
+
 ###  <img src="https://img.icons8.com/dotty/40/null/extra-features.png"/>  Optional - Why does Swift need both Doubles and Integers?
 
 ###  <img src="https://img.icons8.com/dotty/40/null/extra-features.png"/>  Optional - Why is Swift a type-safe language?
