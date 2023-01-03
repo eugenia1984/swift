@@ -434,5 +434,135 @@ Swift sees those line breaks in your string as being part of the text itself, so
 
 ### <img src="https://img.icons8.com/stickers/40/null/test-results.png"/> Test :  Multi-line strings
 
+1. Question 1/12: This code creates multi-line strings correctly – true or false?
 
+```Swift
+var burns = """
+The best laid schemes
+o' mice an' men
+gang aft agley
+"""
+```
 
+-> True
+
+2. Question 2/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var shakespeare = """
+To be or not to be
+that is the question
+"""
+```
+
+-> True
+
+3. Question 3/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var joseph = """
+When I am an old woman,
+I shall wear purple
+with a red hat that doesn't go,
+and doesn't suit me
+"""
+```
+
+-> True
+
+4. Question 4/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var eliot = "This is the way the world ends
+Not with a bang but with a whimper"
+```
+
+-> False. Multi-line strings must start and end with three double quotes on lines by themselves.
+
+5. Question 5/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var tennyson = """
+Tis better to have loved
+and lost than never
+ to have loved at all
+"""
+```
+
+-> True
+
+6. Question 6/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var lear = "The Owl and the Pussy-cat went to sea
+In a beautiful pea-green boat,
+They took some honey, and plenty of money,
+Wrapped up in a five-pound note."
+```
+
+-> False. Multi-line strings must start and end with three double quotes on lines by themselves.
+
+7. Question 7/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var wordsworth = """
+I wandered lonely as a cloud
+that floats on high
+o'er vales and hills
+"""
+```
+
+-> True
+
+8. Question 8/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var coleridge = """
+Water, water, everywhere
+and not a drop to drink"""
+```
+
+-> False. The final three quotes must be on a line by themselves.
+
+9. Question 9/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var henley = """I am the master of my fate
+I am the captain of my soul"""
+```
+
+-> False. The final three quotes must be on a line by themselves.
+
+10. Question 10/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var rossetti = """
+For if the darkness and corruption leave
+A vestige of the thoughts that once I had,
+Better by far you should forget and smile
+Than that you should remember and be sad.
+"""
+```
+
+-> True
+
+11. Question 11/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var shelley = "My name is Ozymandias, King of Kings
+Look on my works, ye mighty, and despair!"
+```
+
+-> False. Multi-line strings must start and end with three double quotes on lines by themselves.
+
+12. Question 12/12: This code creates multi-line strings correctly – true or false?
+
+```Swift
+var brooke = ""If I should die,
+think only this of me
+There is some corner of a foreign field
+That is forever England."
+```
+-> False. Multi-line strings must start and end with three double quotes on lines by themselves.
+
+---
