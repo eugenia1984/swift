@@ -6,6 +6,6 @@ Cursos para aprender swift:
 
 ---
 
-## <img src="https://img.icons8.com/office/16/null/maintenance.png"/> Tecnología
+## <img src="https://img.icons8.com/office/36/null/maintenance.png"/> Tecnología
 
 - <img src="https://img.icons8.com/clouds/30/null/swift.png"/> Swift
