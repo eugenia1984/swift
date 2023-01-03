@@ -658,4 +658,8 @@ I’m calling isMultiple(of:) on a constant there, but you can just use the numb
 print(120.isMultiple(of: 3))
 ```
 
+
+<img width="708" alt="numbers" src="https://user-images.githubusercontent.com/72580574/210416124-36ef719a-c0e9-4e38-9a44-700781c9d7b1.png">
+
+
 ### <img src="https://img.icons8.com/stickers/40/null/test-results.png"/> Test :
