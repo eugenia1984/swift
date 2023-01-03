@@ -404,6 +404,9 @@ print(filename.hasSuffix(".jpg"))
 Strings are really powerful in Swift, and we’ve only really scratched the surface of what they can do!
 
 
+<img width="822" alt="string" src="https://user-images.githubusercontent.com/72580574/210410660-75be42f0-d102-4b93-b300-7d3063d4f75f.png">
+
+
 ###  <img src="https://img.icons8.com/dotty/40/null/extra-features.png"/>  Optional - Why does Swift need multi-line strings?
 
 ### <img src="https://img.icons8.com/stickers/40/null/test-results.png"/> Test :  Multi-line strings
