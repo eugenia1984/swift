@@ -184,6 +184,22 @@ print("5 x 5 is \(5 * 5)")
 
 ## Optional: Why does Swift have string interpolation?
 
+When it comes time to showing information to your user – whether that’s messages being printed out, text on buttons, or whatever fits your app idea – you will usually rely heavily on strings.
+
+Of course, we don’t just want static strings, because we want to show the user some sort of relevant data they can use. So, Swift gives us string interpolation as a way of injecting custom data into strings at runtime: it replaces one or more parts of a string with data provided by us.
+
+For example:
+
+```Swift
+var city = "Cardiff"
+var message = "Welcome to \(city)!"
+```
+
+Of course, in that trivial example we could have just written our city name directly into the string – “Welcome to Cardiff!” – but in real apps having this inserted dynamically is important because it lets us show real-world user data rather than things we typed ourselves.
+
+Swift is capable of placing any kind of data inside string interpolation. The result might not always be useful, but for all of Swift’s basic types – strings, integers, Booleans, etc – the results are great.
+
+Tip: String interpolation is extremely powerful in Swift. If you’re keen to see just what it can do, check out this more advanced blog post from me: [https://www.hackingwithswift.com/articles/178/super-powered-string-interpolation-in-swift-5-0](https://www.hackingwithswift.com/articles/178/super-powered-string-interpolation-in-swift-5-0)
 
 ## Test: String interpolation
 
