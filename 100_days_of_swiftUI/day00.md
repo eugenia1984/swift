@@ -2,7 +2,7 @@
 
 ---
 
-## <img src="https://img.icons8.com/color/38/null/swift.png"/> Day 01
+## <img src="https://img.icons8.com/color/38/null/swift.png"/> Day 00
 
 ---
 
