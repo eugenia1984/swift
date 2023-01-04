@@ -215,6 +215,11 @@ Tip: You can put calculations inside string interpolation if you want to. For ex
 print("5 x 5 is \(5 * 5)")
 ```
 
+<img width="582" alt="joining_strings" src="https://user-images.githubusercontent.com/72580574/210644208-8abad951-71f1-41c9-8303-9fd1232b0be2.png">
+
+
+
+
 ## Optional: Why does Swift have string interpolation?
 
 When it comes time to showing information to your user – whether that’s messages being printed out, text on buttons, or whatever fits your app idea – you will usually rely heavily on strings.
