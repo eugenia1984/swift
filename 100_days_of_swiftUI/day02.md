@@ -90,6 +90,12 @@ print(gameOver)
 
 That will print false first, then after calling toggle() will print true. Yes, that’s the same as using ! just in slightly less code, but it’s surprisingly useful when you’re dealing with complex code!
 
+<img width="809" alt="boolean" src="https://user-images.githubusercontent.com/72580574/210639956-9c8bdfa0-7c9c-4ca6-8e01-b08e0a45e857.png">
+
+
+
+
+
 ## Test: Doubles and Booleans
 
 ---
@@ -234,6 +240,6 @@ It’s a lot, right? And that’s okay – you’ll be using everything from tha
 
 ## :star: Checkpoint
 
----
+
 
 ---
