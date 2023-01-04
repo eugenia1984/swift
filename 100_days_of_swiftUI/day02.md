@@ -96,7 +96,34 @@ That will print false first, then after calling toggle() will print true. Yes, t
 
 
 
-## Test: Doubles and Booleans
+## <img src="https://img.icons8.com/ios/40/null/test-results.png"/> Test: Doubles and Booleans
+
+1.
+
+![image](https://user-images.githubusercontent.com/72580574/210641054-9345ee65-0eaf-469b-ae38-84c51a6d2407.png)
+
+
+2.
+
+![image](https://user-images.githubusercontent.com/72580574/210641125-5f975df9-33dd-45b6-8e9c-a4f55c5532e6.png)
+
+3.
+
+![image](https://user-images.githubusercontent.com/72580574/210641180-c5f00440-6100-47af-a087-04ae59ff407f.png)
+
+4.
+
+![image](https://user-images.githubusercontent.com/72580574/210641251-7f687fbc-1450-4e77-adb5-32f4e2fca92e.png)
+
+5.
+
+![image](https://user-images.githubusercontent.com/72580574/210641308-99ec80c5-127e-4db9-a709-a5591c053d12.png)
+
+6.
+
+![image](https://user-images.githubusercontent.com/72580574/210641359-7123aa4d-18ff-4b83-8d42-ba2d93202d43.png)
+
+
 
 ---
 
