@@ -677,4 +677,8 @@ You already know everything you need to solve that problem, but if you’d like 
 
 5. If you want to get fancy with print(), you can use Option+Shift+8 to get the degrees symbol: °. This means you can write something like 25°F.
 
+### Here it's how I resolve it
+
+<img width="754" alt="checkpoint-1" src="https://user-images.githubusercontent.com/72580574/210659726-36d06b78-5f2e-4658-b958-ee262cf837fd.png">
+
 ---
