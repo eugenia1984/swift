@@ -681,4 +681,7 @@ You already know everything you need to solve that problem, but if you’d like 
 
 <img width="754" alt="checkpoint-1" src="https://user-images.githubusercontent.com/72580574/210659726-36d06b78-5f2e-4658-b958-ee262cf837fd.png">
 
+[Here it´s the code](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/checkpoint1.swift)
+
+
 ---
