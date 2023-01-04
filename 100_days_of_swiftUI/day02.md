@@ -594,7 +594,35 @@ let valentine = ColoredString(stringInterpolation: interpolation)
 ```
 
 
-## Test: String interpolation
+##  <img src="https://img.icons8.com/ios/50/null/test-results.png"/> Test: String interpolation
+
+1.
+
+![image](https://user-images.githubusercontent.com/72580574/210650053-4f8f2b06-268b-43e7-b747-0e8e0bb9ff22.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/72580574/210650111-987f634e-98bd-4ae0-892a-22cef4e6fdb6.png)
+
+3.
+
+![image](https://user-images.githubusercontent.com/72580574/210650179-d9c52b43-d21e-4634-b894-e97931c9703c.png)
+
+
+4.
+
+![image](https://user-images.githubusercontent.com/72580574/210650223-4e01e2c5-2c17-4b3a-ba17-b03624809703.png)
+
+
+5.
+
+![image](https://user-images.githubusercontent.com/72580574/210650280-e564e73e-685d-4088-8aef-a34466201be6.png)
+
+
+6.
+
+![image](https://user-images.githubusercontent.com/72580574/210650309-73fd186a-1709-4317-8cdf-6497305ce13d.png)
+
 
 ---
 
