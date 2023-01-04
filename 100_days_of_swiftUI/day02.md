@@ -655,6 +655,26 @@ It’s a lot, right? And that’s okay – you’ll be using everything from tha
 
 ## :star: Checkpoint
 
+Your goal is to write a Swift playground that:
 
+1. Creates a constant holding any temperature in Celsius.
+
+2. Converts it to Fahrenheit by multiplying by 9, dividing by 5, then adding 32.
+
+3. Prints the result for the user, showing both the Celsius and Fahrenheit values.
+
+You already know everything you need to solve that problem, but if you’d like some hints then I’ll add some below.
+
+-> Some hints
+
+1. Use let to make your constant. You can call it whatever you want, but I think celsius would be an appropriate name.
+
+2. Celsius is commonly stored as a decimal, so make sure and create it as one. This might mean adding “.0” to the end – using 25.0 rather than 25, for example.
+
+3. We use * for multiplication and / for division.
+
+4. Use \(someVariable) to activate string interpolation.
+
+5. If you want to get fancy with print(), you can use Option+Shift+8 to get the degrees symbol: °. This means you can write something like 25°F.
 
 ---
