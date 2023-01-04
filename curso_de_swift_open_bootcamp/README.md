@@ -4,7 +4,7 @@
 
 ## :book: Temas
 
-1. [**Introduccion**](https://github.com/eugenia1984/swift/tree/main/curso_de_swift_open_bootcamp/01_introduccion)
+1. [**Introduccion**](https://github.com/eugenia1984/swift/tree/main/curso_de_swift_open_bootcamp/01_introduccion) : ⭐ 1.1 Introducción a Swift - ⭐ 1.2 Introducción a X-Code
 
 2. Tipo  de variables
 
