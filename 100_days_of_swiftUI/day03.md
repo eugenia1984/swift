@@ -226,7 +226,10 @@ We read values out of arrays using their numerical position, counting from 0. Th
 
 I know what you’re thinking: an app crash is bad, right? Right. But trust me: if Swift didn’t crash then it’s very likely you would get back bad data, because you tried to read a value outside what your array holds.
 
+<img width="816" alt="arrays" src="https://user-images.githubusercontent.com/72580574/210821208-5f82dc2b-a2bc-44a8-9a80-e3ea9f113544.png">
 
+ 
+ 
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Arrays
 
 ---
