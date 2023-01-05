@@ -746,6 +746,9 @@ So, enums are a way of us saying Direction.north to mean something specific and 
 
 As you progress, you’ll learn how Swift lets us add more functionality to enums – they are more powerful in Swift than in any other language I have seen.
 
+ <img width="591" alt="enum" src="https://user-images.githubusercontent.com/72580574/210885030-6ec90da3-4f87-44ed-bda3-c7999fc8a4fd.png">
+
+ 
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Enumerations
 
 ---
