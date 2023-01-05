@@ -599,7 +599,10 @@ This difference means that **sets are more useful for times when you want to say
 
 For more information on this topic, check out Antoine van der Lee’s post: [https://www.avanderlee.com/swift/array-vs-set-differences-explained/](https://www.avanderlee.com/swift/array-vs-set-differences-explained/)
 
+<img width="614" alt="sets" src="https://user-images.githubusercontent.com/72580574/210881780-78a97c0a-a9a9-41b7-889b-e28c93c77fc4.png">
 
+ 
+ 
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Sets
 
 ---
