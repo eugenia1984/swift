@@ -751,4 +751,28 @@ As you progress, you’ll learn how Swift lets us add more functionality to enum
  
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Enumerations
 
+1.
+
+<img src="https://user-images.githubusercontent.com/72580574/210885415-302cbef5-2841-4b81-bc76-2053d7ced695.png" width="400" alt="pregunta 1" >
+
+2.
+
+<img src="https://user-images.githubusercontent.com/72580574/210885648-4138c1e8-35a7-4714-86b7-97bb4fb89502.png" width="400" alt="pregunta 2" >
+
+3.
+
+<img src="https://user-images.githubusercontent.com/72580574/210885696-ae35aa0f-7dcd-44ab-82fb-d0a127f4886f.png" width="400" alt="pregunta 3" >
+
+4.
+
+<img src="https://user-images.githubusercontent.com/72580574/210885794-8a231eb6-1ae6-44b1-a949-568b11725173.png" width="400" alt="pregunta 4" >
+
+5.
+
+<img src="https://user-images.githubusercontent.com/72580574/210885847-756cef76-82f4-434a-ad82-3b7cf8fc7d59.png" width="400" alt="pregunta 5" >
+
+6.
+
+<img src="https://user-images.githubusercontent.com/72580574/210885910-e26c19a7-0d69-4b56-8e18-5c58d4352f1b.png" width="400" alt="pregunta 6" >
+
 ---
