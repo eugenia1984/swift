@@ -24,7 +24,7 @@ Today you have four tutorials to follow, and you’ll meet things like arrays, d
 
 2. [How to store and find data in dictionaries](https://www.hackingwithswift.com/quick-start/beginners/how-to-store-and-find-data-in-dictionaries)
 
--Optional: Why does Swift have dictionaries as well as arrays?
+-[Optional: Why does Swift have dictionaries as well as arrays?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-dictionaries-as-well-as-arrays)
 
 -Optional: Why does Swift have default values for dictionaries?
 
@@ -371,7 +371,42 @@ Finally, just like arrays and the other data types we’ve seen so far, dictiona
 
 ## Optional: Why does Swift have dictionaries as well as arrays?
 
+Dictionaries and arrays are both ways of storing lots of data in one variable, but they store them in different ways: dictionaries let us choose a “key” that identifies the item we want to add, whereas arrays just add each item sequentially.
+
+So, rather than trying to remember that array index 7 means a user’s country, we could just write user["country"] – it’s much more convenient.
+
+Dictionaries don’t store our items using an index, but instead they optimize the way they store items for fast retrieval. So, when we say user["country"] it will send back the item at that key (or nil) instantly, even if we have a dictionary with 100,000 items inside.
+
+Remember, you can’t be guaranteed that a key in a dictionary exists. This is why reading a value from a dictionary might send back nothing – you might have requested a key that doesn’t exist!
+
+
 ## Optional: Why does Swift have default values for dictionaries?
+
+Whenever you read a value from a dictionary, you might get a value back or you might get back nil – there might be no value for that key. Having no value can cause problems in your code, not least because you need to add extra functionality to handle missing values safely, and that’s where dictionary default values come in: they let you provide a backup value to use for when the key you ask for doesn’t exist.
+
+For example, here’s a dictionary that stores the exam results for a student:
+
+```Swift
+let results = [
+    "english": 100,
+    "french": 85,
+    "geography": 75
+]
+```
+
+As you can see, they sat three exams and scored 100%, 85%, and 75% for English, French, and Geography. If we wanted to read their history score, how we do it depends on what we want:
+
+If a missing value means the student failed to take the test, then we could use a default value of 0 so that we always get an integer back.
+
+
+If a missing value means the student has yet to take the exam, then we should skip the default value and instead look for a nil value.
+
+
+So, it’s not like you always need a default value when working with dictionaries, but when you do it’s easy:
+
+```Swift
+ let historyResult = results["history", default: 0]
+```
 
 ## Test: Dictionaries
 
@@ -381,7 +416,69 @@ Finally, just like arrays and the other data types we’ve seen so far, dictiona
 
 ## :star: 3. How to use sets for fast data lookup
 
+
+
+So far you’ve learned about two ways of collecting data in Swift: arrays and dictionaries. There is a third very common way to group data, called a set – they are similar to arrays, except you can’t add duplicate items, and they don’t store their items in a particular order.
+
+Creating a set works much like creating an array: tell Swift what kind of data it will store, then go ahead and add things. There are two important differences, though, and they are best demonstrated using some code.
+
+- First, here’s how you would make a set of actor names:
+
+```Swift
+let people = Set(["Denzel Washington", "Tom Cruise", "Nicolas Cage", "Samuel L Jackson"])
+```
+
+Notice how that actually creates an array first, then puts that array into the set? That’s intentional, and it’s the standard way of creating a set from fixed data. Remember, the set will automatically remove any duplicate values, and it won’t remember the exact order that was used in the array.
+
+If you’re curious how the set has ordered the data, just try printing it out:
+
+```Swift
+print(people)
+```
+
+You might see the names in the original order, but you might also get a completely different order – the set just doesn’t care what order its items come in.
+
+- The second important difference when adding items to a set is visible when you add items individually. Here’s the code:
+
+
+```Swift
+var people = Set<String>()
+people.insert("Denzel Washington")
+people.insert("Tom Cruise")
+people.insert("Nicolas Cage")
+people.insert("Samuel L Jackson")
+```
+
+Notice how we’re using *8insert()**? When we had an array of strings, we added items by calling append(), but that name doesn’t make sense here – we aren’t adding an item to the end of the set, because the set will store the items in whatever order it wants.
+
+Now, you might think sets just sound like simplified arrays – after all, if you can’t have duplicates and you lose the order of your items, why not just use arrays? Well, both of those restrictions actually get turned into an advantage.
+
+- First, not storing duplicates is sometimes exactly what you want. There’s a reason I chose actors in the previous example: the Screen Actors Guild requires that all its members have a unique stage name to avoid confusion, which means that duplicates must never be allowed. For example, the actor Michael Keaton (Spider-Man Homecoming, Toy Story 3, Batman, and more) is actually named Michael Douglas, but because there was already a Michael Douglas in the guild (Avengers, Falling Down, Romancing the Stone, and more), he had to have a unique name.
+
+- Second, instead of storing your items in the exact order you specify, sets instead store them in a highly optimized order that makes it very fast to locate items. And the difference isn’t small: if you have an array of 1000 movie names and use something like contains() to check whether it contains “The Dark Knight” Swift needs to go through every item until it finds one that matches – that might mean checking all 1000 movie names before returning false, because The Dark Knight wasn’t in the array.
+
+In comparison, calling contains() on a set runs so fast you’d struggle to measure it meaningfully. Heck, even if you had a million items in the set, or even 10 million items, it would still run instantly, whereas an array might take minutes or longer to do the same work.
+
+Most of the time you’ll find yourself using arrays rather than sets, but sometimes – just sometimes – you’ll find that a set is exactly the right choice to solve a particular problem, and it will make otherwise slow code run in no time at all.
+
+Tip: Alongside *8contains()*8, you’ll also find count to read the number of items in a set, and sorted() to return a sorted array containing the the set’s items.
+
+
 ## Optional: Why are sets different from arrays in Swift?
+
+
+Both sets and arrays are important in Swift, and understanding what their differences are will help you understand which one to choose for any given circumstance.
+
+Both sets and arrays are collections of data, meaning that they hold multiple values inside a single variable. However, how they hold their values is what matters: sets are unordered and cannot contain duplicates, whereas arrays retain their order and can contain duplicates.
+
+Those two differences might seem small, but they have an interesting side effect: because sets don’t need to store your objects in the order you add them, they can instead store them in a seemingly random order that optimizes them for fast retrieval. So, when you say “does this set contain item X,” you’ll get an answer in a split second no matter how big the set is.
+
+In comparison, arrays must store their items in the order you give them, so to check whether item X exists in an array containing 10,000 items Swift needs to start at the first item and check every single item until it’s found – or perhaps it isn’t found at all.
+
+This difference means that sets are more useful for times when you want to say “does this item exist?” For example, if you want to check whether a word appears in a dictionary, you should use a set: you don’t have duplicates, and you want to do a fast look up.
+
+For more information on this topic, check out Antoine van der Lee’s post: https://www.avanderlee.com/swift/array-vs-set-differences-explained/
+
 
 ## Test: Sets
 
@@ -389,9 +486,95 @@ Finally, just like arrays and the other data types we’ve seen so far, dictiona
 
 ## :star: 4. How to create and use enums
 
+
+An enum – short for enumeration – is a set of named values we can create and use in our code. They don’t have any special meaning to Swift, but they are more efficient and safer, so you’ll use them a lot in your code.
+
+To demonstrate the problem, let’s say you wanted to write some code to let the user select a day of the week. You might start out like this:
+
+```Swift
+var selected = "Monday"
+```
+
+Later on in your code you change it, like so:
+
+```Swift
+selected = "Tuesday"
+```
+
+That might work well in very simple programs, but take a look at this code:
+
+```Swift
+selected = "January"
+```
+
+Oops! You accidentally typed in a month rather than a day – what will your code do? Well, you might be lucky enough to have a colleague spot the error as they review your code, but how about this:
+
+```Swift
+selected = "Friday "
+```
+
+That has a space at the end of Friday, and “Friday ” with a space is different from “Friday” without a space in Swift’s eyes. Again, what would your code do?
+
+Using strings for this kind of thing takes some very careful programming, but it’s also pretty inefficient – do we really need to store all the letters of “Friday” to track one single day?
+
+This is where enums come in: they let us define a new data type with a handful of specific values that it can have. Think of a Boolean, that can only have true or false – you can’t set it to “maybe” or “probably”, because that isn’t in the range of values it understands. Enums are the same: we get to list up front the range of values it can have, and Swift will make sure you never make a mistake using them.
+
+So, we could rewrite our weekdays into a new enum like this:
+
+```Swift
+enum Weekday {
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+}
+```
+
+That calls the new enum Weekday, and provides five cases to handle the five weekdays.
+
+Now rather than using strings, we would use the enum. Try this in your playground:
+
+```Swift
+var day = Weekday.monday
+day = Weekday.tuesday
+day = Weekday.friday
+```
+
+With that change you can’t accidentally use “Friday ” with an extra space in there, or put a month name instead – you must always choose one of the possible days listed in the enum. You’ll even see Swift offer up all possible options when you’ve typed Weekday., because it knows you’re going to select one of the cases.
+
+Swift does two things that make enums a little easier to use. First, when you have many cases in an enum you can just write case once, then separate each case with a comma:
+
+```Swift
+enum Weekday {
+    case monday, tuesday, wednesday, thursday, friday
+}
+```
+
+- Second, remember that once you assign a value to a variable or constant, its data type becomes fixed – you can’t set a variable to a string at first, then an integer later on. Well, for enums this means you can skip the enum name after the first assignment, like this:
+
+```Swift
+var day = Weekday.monday
+day = .tuesday
+day = .friday
+```
+
+Swift knows that .tuesday must refer to Weekday.tuesday because day must always be some kind of Weekday.
+
+Although it isn’t visible here, one major benefit of enums is that Swift stores them in an optimized form – when we say Weekday.monday Swift is likely to store that using a single integer such as 0, which is much more efficient to store and check than the letters M, o, n, d, a, y.
+
+
 ## Optional: Why does Swift need enums?
+
+
+Enums are an extraordinarily powerful feature of Swift, and you’ll see them used in a great many ways and places. Many languages don’t have enums and get by just fine, so you might wonder why Swift needs enums at all!
+
+Well, at their simplest an enum is simply a nice name for a value. We can make an enum called Direction with cases for north, south, east, and west, and refer to those in our code. Sure, we could have used an integer instead, in which case we’d refer to 1, 2, 3, and 4, but could you really remember what 3 meant? And what if you typed 5 by mistake?
+
+So, enums are a way of us saying Direction.north to mean something specific and safe. If we had written Direction.thatWay and no such case existed, Swift would simply refuse to build our code – it doesn’t understand the enum case. Behind the scenes, Swift can store its enum values very simply, so they are much faster to create and store than something like a string.
+
+As you progress, you’ll learn how Swift lets us add more functionality to enums – they are more powerful in Swift than in any other language I have seen.
 
 ## Test: Enumerations
 
 ---
---+
