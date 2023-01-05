@@ -256,6 +256,7 @@ I know what you’re thinking: an app crash is bad, right? Right. But trust me: 
 6.
 
 <img src="https://user-images.githubusercontent.com/72580574/210833155-93e88664-d6f3-4f1e-9be9-2f1d19f89f9c.png" width="400" alt="question 6" >
+ 
 ---
 
 ## :star: 2. How to store and find data in dictionaries
@@ -289,7 +290,7 @@ print("Location: \(employee[2])")
  
 That now prints Nashville as the job title, which is wrong, and will cause our code to crash when it reads employee[2], which is just bad.
 
-Swift has a solution for both these problems, called dictionaries. Dictionaries don’t store items according to their position like arrays do, but instead let us decide where items should be stored.
+Swift has a solution for both these problems, called **dictionaries**. Dictionaries **don’t store items according to their position** like arrays do, but instead **let us decide where items should be stored**.
 
 For example, we could rewrite our previous example to be more explicit about what each item is:
 
@@ -307,7 +308,15 @@ let employee2 = [
 ]
 ```
 
-As you can see, we’re now being really clear: the name is Taylor Swift, the job is Singer, and the location is Nashville. Swift calls the strings on the left – name, job, and location – the keys to the dictionary, and the strings on the right are the values.
+As you can see, we’re now being really clear: 
+ 
+ -the name is Taylor Swift
+ 
+ -the job is Singer
+ 
+ -the location is Nashville. 
+ 
+ Swift calls the strings on the left – name, job, and location – the **keys** to the dictionary, and the strings on the right are the **values**.
 
 When it comes to reading data out from the dictionary, you use the same keys you used when creating it:
 
@@ -329,11 +338,11 @@ print(employee2["manager"])
 
 All of that is valid Swift code, but we’re trying to read dictionary keys that don’t have a value attached to them. Sure, Swift could just crash here just like it will crash if you read an array index that doesn’t exist, but that would make it very hard to work with – at least if you have an array with 10 items you know it’s safe to read indices 0 through 9. (“Indices” is just the plural form of “index”, in case you weren’t sure.)
 
-So, Swift provides an alternative: when you access data inside a dictionary, it will tell us “you might get a value back, but you might get back nothing at all.” Swift calls these optionals because the existence of data is optional - it might be there or it might not.
+So, Swift provides an alternative: **when you access data inside a dictionary, it will tell us “you might get a value back, but you might get back nothing at all.”** Swift calls these **optionals** because the existence of data is optional - it might be there or it might not.
 
 Swift will even warn you when you write the code, albeit in a rather obscure way – it will say “Expression implicitly coerced from 'String?' to 'Any’”, but it will really mean “this data might not actually be there – are you sure you want to print it?”
 
-Optionals are a pretty complex issue that we’ll be covering in detail later on, but for now I’ll show you a simpler approach: when reading from a dictionary, you can provide a default value to use if the key doesn’t exist.
+**Optionals** are a pretty complex issue that we’ll be covering in detail later on, but for now I’ll show you a simpler approach: **when reading from a dictionary, you can provide a default value to use if the key doesn’t exist**.
 
 Here’s how that looks:
 
@@ -376,7 +385,7 @@ heights["LeBron James"] = 206
 
 Notice how we need to write ```[String: Int]``` now, to mean a dictionary with strings for its keys and integers for its values.
 
-Because each dictionary item must exist at one specific key, dictionaries don’t allow duplicate keys to exist. Instead, if you set a value for a key that already exists, Swift will overwrite whatever was the previous value.
+Because **each dictionary item must exist at one specific key, dictionaries don’t allow duplicate keys to exist**. Instead, **if you set a value for a key that already exists, Swift will overwrite whatever was the previous value**.
 
 For example, if you were chatting with a friend about superheroes and supervillains, you might store them in a dictionary like this:
 
@@ -399,18 +408,18 @@ Finally, just like arrays and the other data types we’ve seen so far, dictiona
 
 ## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why does Swift have dictionaries as well as arrays?
 
-Dictionaries and arrays are both ways of storing lots of data in one variable, but they store them in different ways: dictionaries let us choose a “key” that identifies the item we want to add, whereas arrays just add each item sequentially.
+**Dictionaries and arrays are both ways of storing lots of data in one variable**, but they store them in different ways: **dictionaries let us choose a “key” that identifies the item we want to add, whereas arrays just add each item sequentially**.
 
 So, rather than trying to remember that array index 7 means a user’s country, we could just write user["country"] – it’s much more convenient.
 
-Dictionaries don’t store our items using an index, but instead they optimize the way they store items for fast retrieval. So, when we say user["country"] it will send back the item at that key (or nil) instantly, even if we have a dictionary with 100,000 items inside.
+**Dictionaries don’t store our items using an index, but instead they optimize the way they store items for fast retrieval**. So, when we say user["country"] it will send back the item at that key (or nil) instantly, even if we have a dictionary with 100,000 items inside.
 
 Remember, you can’t be guaranteed that a key in a dictionary exists. This is why reading a value from a dictionary might send back nothing – you might have requested a key that doesn’t exist!
 
 
 ## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why does Swift have default values for dictionaries?
 
-Whenever you read a value from a dictionary, you might get a value back or you might get back nil – there might be no value for that key. Having no value can cause problems in your code, not least because you need to add extra functionality to handle missing values safely, and that’s where dictionary default values come in: they let you provide a backup value to use for when the key you ask for doesn’t exist.
+Whenever you read a value from a dictionary, you might **get a value back or you might get back nil – there might be no value for that key**. **Having no value can cause problems in your code**, not least because you need to add extra functionality to handle missing values safely, and that’s where **dictionary default values** come in: **they let you provide a backup value to use for when the key you ask for doesn’t exist**.
 
 For example, here’s a dictionary that stores the exam results for a student:
 
