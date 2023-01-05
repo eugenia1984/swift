@@ -449,6 +449,35 @@ So, it’s not like you always need a default value when working with dictionari
 
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Dictionaries
 
+1.
+
+<img src="https://user-images.githubusercontent.com/72580574/210875455-a46b747f-868d-4133-8fbb-8aeffae99882.png" width="400" alt="pregunta 1" >
+
+2.
+
+<img src="https://user-images.githubusercontent.com/72580574/210875730-f63131bd-5bd9-42bf-ab94-912d3409b076.png" width="400" alt="pregunta 2" >
+
+
+3.
+
+<img src="https://user-images.githubusercontent.com/72580574/210875804-75f36cea-5b91-4231-b28d-981a43530b56.png" width="400" alt="pregunta 3" >
+
+
+4. 
+
+<img src="https://user-images.githubusercontent.com/72580574/210875870-6b53aa91-0cd3-4aee-8ffa-0bb9e59be834.png" width="400" alt="pregunta 4" >
+
+
+5.
+
+<img src="https://user-images.githubusercontent.com/72580574/210875942-c9f0504a-f3ad-4610-9e14-eb1773e10c8c.png" width="400" alt="pregunta 5" >
+
+
+6.
+
+<img src="https://user-images.githubusercontent.com/72580574/210876041-b522994b-8016-41f8-9479-1058dbe0431f.png" width="400" alt="pregunta 6" >
+
+
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Dictionary default values
 
 ---
