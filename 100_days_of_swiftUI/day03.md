@@ -369,7 +369,7 @@ Finally, just like arrays and the other data types we’ve seen so far, dictiona
 
 
 
-## Optional: Why does Swift have dictionaries as well as arrays?
+## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why does Swift have dictionaries as well as arrays?
 
 Dictionaries and arrays are both ways of storing lots of data in one variable, but they store them in different ways: dictionaries let us choose a “key” that identifies the item we want to add, whereas arrays just add each item sequentially.
 
