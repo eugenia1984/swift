@@ -16,31 +16,31 @@ In fact, a common mistake folks make while learning is they have a fear of runni
 
 Today you have four tutorials to follow, and you’ll meet things like arrays, dictionaries, sets, and more. After watching each video you’re welcome to go through some optional extra reading if you want extra clarification on a topic, and there are some short tests to help make sure you’ve understood what was taught.
 
-1. [How to store ordered data in arrays](https://www.hackingwithswift.com/quick-start/beginners/how-to-store-ordered-data-in-arrays)
+1. [**How to store ordered data in arrays**](https://www.hackingwithswift.com/quick-start/beginners/how-to-store-ordered-data-in-arrays)
 
 -[Optional: Why does Swift have arrays?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-arrays)
 
 -Test: Arrays
 
-2. [How to store and find data in dictionaries](https://www.hackingwithswift.com/quick-start/beginners/how-to-store-and-find-data-in-dictionaries)
+2. [**How to store and find data in dictionaries**](https://www.hackingwithswift.com/quick-start/beginners/how-to-store-and-find-data-in-dictionaries)
 
 -[Optional: Why does Swift have dictionaries as well as arrays?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-dictionaries-as-well-as-arrays)
 
--Optional: Why does Swift have default values for dictionaries?
+-[Optional: Why does Swift have default values for dictionaries?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-have-default-values-for-dictionaries)
 
 -Test: Dictionaries
 
 -Test: Dictionary default values
 
-3. How to use sets for fast data lookup
+3. [**How to use sets for fast data lookup**](https://www.hackingwithswift.com/quick-start/beginners/how-to-use-sets-for-fast-data-lookup)
 
--Optional: Why are sets different from arrays in Swift?
+-[Optional: Why are sets different from arrays in Swift?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-are-sets-different-from-arrays-in-swift)
 
 -Test: Sets
 
-4. How to create and use enums
+4. [**How to create and use enums**](https://www.hackingwithswift.com/quick-start/beginners/how-to-create-and-use-enums)
 
--Optional: Why does Swift need enums?
+-[Optional: Why does Swift need enums?](https://www.hackingwithswift.com/quick-start/understanding-swift/why-does-swift-need-enums)
 
 -Test: Enumerations
 
