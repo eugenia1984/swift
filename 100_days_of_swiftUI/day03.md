@@ -213,7 +213,7 @@ Tip: When you reverse an array, Swift is very clever – it doesn’t actually d
 Arrays are extremely common in Swift, and you’ll have lots of opportunity to learn more about them as you progress. Even better sorted(), reversed(), and lots of other array functionality also exists for strings – using sorted() there puts the string’s letters in alphabetical order, making something like “swift” into “fistw”.
 
 
-## Optional: Why does Swift have arrays?
+## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why does Swift have arrays?
 
 Swift’s strings, integers, Booleans, and Doubles allow us to temporarily store single values, but if you want to store many values you will often use arrays instead.
 
@@ -226,7 +226,7 @@ We read values out of arrays using their numerical position, counting from 0. Th
 I know what you’re thinking: an app crash is bad, right? Right. But trust me: if Swift didn’t crash then it’s very likely you would get back bad data, because you tried to read a value outside what your array holds.
 
 
-## Test: Arrays
+## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Arrays
 
 ---
 
@@ -380,7 +380,7 @@ Dictionaries don’t store our items using an index, but instead they optimize t
 Remember, you can’t be guaranteed that a key in a dictionary exists. This is why reading a value from a dictionary might send back nothing – you might have requested a key that doesn’t exist!
 
 
-## Optional: Why does Swift have default values for dictionaries?
+## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why does Swift have default values for dictionaries?
 
 Whenever you read a value from a dictionary, you might get a value back or you might get back nil – there might be no value for that key. Having no value can cause problems in your code, not least because you need to add extra functionality to handle missing values safely, and that’s where dictionary default values come in: they let you provide a backup value to use for when the key you ask for doesn’t exist.
 
@@ -408,9 +408,9 @@ So, it’s not like you always need a default value when working with dictionari
  let historyResult = results["history", default: 0]
 ```
 
-## Test: Dictionaries
+## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Dictionaries
 
-## Test: Dictionary default values
+## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Dictionary default values
 
 ---
 
@@ -464,7 +464,7 @@ Most of the time you’ll find yourself using arrays rather than sets, but somet
 Tip: Alongside *8contains()*8, you’ll also find count to read the number of items in a set, and sorted() to return a sorted array containing the the set’s items.
 
 
-## Optional: Why are sets different from arrays in Swift?
+## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why are sets different from arrays in Swift?
 
 
 Both sets and arrays are important in Swift, and understanding what their differences are will help you understand which one to choose for any given circumstance.
@@ -480,7 +480,7 @@ This difference means that sets are more useful for times when you want to say �
 For more information on this topic, check out Antoine van der Lee’s post: https://www.avanderlee.com/swift/array-vs-set-differences-explained/
 
 
-## Test: Sets
+## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Sets
 
 ---
 
@@ -564,7 +564,7 @@ Swift knows that .tuesday must refer to Weekday.tuesday because day must always 
 Although it isn’t visible here, one major benefit of enums is that Swift stores them in an optimized form – when we say Weekday.monday Swift is likely to store that using a single integer such as 0, which is much more efficient to store and check than the letters M, o, n, d, a, y.
 
 
-## Optional: Why does Swift need enums?
+## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why does Swift need enums?
 
 
 Enums are an extraordinarily powerful feature of Swift, and you’ll see them used in a great many ways and places. Many languages don’t have enums and get by just fine, so you might wonder why Swift needs enums at all!
@@ -575,6 +575,6 @@ So, enums are a way of us saying Direction.north to mean something specific and 
 
 As you progress, you’ll learn how Swift lets us add more functionality to enums – they are more powerful in Swift than in any other language I have seen.
 
-## Test: Enumerations
+## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Enumerations
 
 ---
