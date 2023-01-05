@@ -581,7 +581,7 @@ In comparison, **calling contains() on a set runs so fast you’d struggle to me
 
 Most of the time you’ll find yourself using arrays rather than sets, but sometimes – just sometimes – you’ll find that a set is exactly the right choice to solve a particular problem, and it will make otherwise slow code run in no time at all.
 
-*Tip*: Alongside **contains()**, you’ll also find count to read the number of items in a set, and **sorted()** to return a sorted array containing the the set’s items.
+*Tip*: Alongside **contains()**, you’ll also find count to read the number of items in a set, and **sorted()** to return a sorted array containing the set’s items.
 
 
 ## <img src="https://img.icons8.com/material-rounded/40/null/xlarge-icons.png"/> Optional: Why are sets different from arrays in Swift?
