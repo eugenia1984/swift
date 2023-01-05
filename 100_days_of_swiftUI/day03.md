@@ -226,7 +226,7 @@ We read values out of arrays using their numerical position, counting from 0. Th
 
 I know what you’re thinking: an app crash is bad, right? Right. But trust me: if Swift didn’t crash then it’s very likely you would get back bad data, because you tried to read a value outside what your array holds.
 
-<img width="816" alt="arrays" src="https://user-images.githubusercontent.com/72580574/210821208-5f82dc2b-a2bc-44a8-9a80-e3ea9f113544.png">
+<img width="408" alt="arrays" src="https://user-images.githubusercontent.com/72580574/210821208-5f82dc2b-a2bc-44a8-9a80-e3ea9f113544.png">
 
  
  
@@ -234,28 +234,28 @@ I know what you’re thinking: an app crash is bad, right? Right. But trust me: 
 
 1.
 
-<img src="https://user-images.githubusercontent.com/72580574/210832265-4914e837-129f-4cab-8397-0ced52c3e3a9.png" width="300" alt="question 1" >
+<img src="https://user-images.githubusercontent.com/72580574/210832265-4914e837-129f-4cab-8397-0ced52c3e3a9.png" width="400" alt="question 1" >
 
 2.
 
-<img src="https://user-images.githubusercontent.com/72580574/210832494-0047415c-3d05-401e-bf73-988b3750c85b.png" width="300" alt="question 2" >
+<img src="https://user-images.githubusercontent.com/72580574/210832494-0047415c-3d05-401e-bf73-988b3750c85b.png" width="400" alt="question 2" >
 
 
 3.
 
-<img src="https://user-images.githubusercontent.com/72580574/210832713-6f366a0a-ea81-487c-aa0e-0ee96efabf47.png" width="300" alt="question 3" >
+<img src="https://user-images.githubusercontent.com/72580574/210832713-6f366a0a-ea81-487c-aa0e-0ee96efabf47.png" width="400" alt="question 3" >
 
 4.
 
-<img src="https://user-images.githubusercontent.com/72580574/210832963-389717d0-ed3f-4260-97e6-867aeb8c1197.png" width="300" alt="question 4" >
+<img src="https://user-images.githubusercontent.com/72580574/210832963-389717d0-ed3f-4260-97e6-867aeb8c1197.png" width="400" alt="question 4" >
 
 5.
 
-<img src="https://user-images.githubusercontent.com/72580574/210833064-7a55c024-5cf3-4cfc-a458-ab85bb273be6.png" width="300" alt="question 5" >
+<img src="https://user-images.githubusercontent.com/72580574/210833064-7a55c024-5cf3-4cfc-a458-ab85bb273be6.png" width="400" alt="question 5" >
 
 6.
 
-<img src="https://user-images.githubusercontent.com/72580574/210833155-93e88664-d6f3-4f1e-9be9-2f1d19f89f9c.png" width="300" alt="question 6" >
+<img src="https://user-images.githubusercontent.com/72580574/210833155-93e88664-d6f3-4f1e-9be9-2f1d19f89f9c.png" width="400" alt="question 6" >
 ---
 
 ## :star: 2. How to store and find data in dictionaries
