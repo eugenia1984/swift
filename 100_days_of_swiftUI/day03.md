@@ -232,6 +232,30 @@ I know what you’re thinking: an app crash is bad, right? Right. But trust me: 
  
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Arrays
 
+1.
+
+<img src="https://user-images.githubusercontent.com/72580574/210832265-4914e837-129f-4cab-8397-0ced52c3e3a9.png" widht="300" alt="question 1" >
+
+2.
+
+<img src="https://user-images.githubusercontent.com/72580574/210832494-0047415c-3d05-401e-bf73-988b3750c85b.png" widht="300" alt="question 2" >
+
+
+3.
+
+<img src="https://user-images.githubusercontent.com/72580574/210832713-6f366a0a-ea81-487c-aa0e-0ee96efabf47.png" widht="300" alt="question 3" >
+
+4.
+
+<img src="https://user-images.githubusercontent.com/72580574/210832963-389717d0-ed3f-4260-97e6-867aeb8c1197.png" widht="300" alt="question 4" >
+
+5.
+
+<img src="https://user-images.githubusercontent.com/72580574/210833064-7a55c024-5cf3-4cfc-a458-ab85bb273be6.png" widht="300" alt="question 5" >
+
+6.
+
+<img src="https://user-images.githubusercontent.com/72580574/210833155-93e88664-d6f3-4f1e-9be9-2f1d19f89f9c.png" widht="300" alt="question 6" >
 ---
 
 ## :star: 2. How to store and find data in dictionaries
