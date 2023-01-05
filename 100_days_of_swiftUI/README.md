@@ -22,7 +22,7 @@ Regardless of whether or not you go over the optional extra reading, you’ll fi
 
 - [**Day 2**](https://www.hackingwithswift.com/100/swiftui/2) – **Booleans**, **string interpolation**, and **checkpoint 1** -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day02.md)
 
-Day 3 – Arrays, dictionaries, sets, and enums
+- [**Day 3**](https://www.hackingwithswift.com/100/swiftui/3) – **Arrays**, **dictionaries**, **sets**, and **enums** -> [theory](https://github.com/eugenia1984/swift/blob/main/100_days_of_swiftUI/day03.md)
 
 Day 4 – type annotations and checkpoint 2
 
