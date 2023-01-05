@@ -403,6 +403,8 @@ archEnemies["Batman"] = "Penguin"
 
 Finally, just like arrays and the other data types we’ve seen so far, dictionaries come with some useful functionality that you’ll want to use in the future – count and removeAll() both exists for dictionaries, and work just like they do for arrays.
 
+ 
+<img width="600" alt="dictionaries" src="https://user-images.githubusercontent.com/72580574/210874509-a51fb4d1-37cf-4b9c-9ade-c78aad2dc41b.png">
 
 
 
