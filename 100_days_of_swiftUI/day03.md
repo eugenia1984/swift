@@ -605,12 +605,60 @@ For more information on this topic, check out Antoine van der Lee’s post: [htt
  
 ## <img src="https://img.icons8.com/stickers/50/null/test-results.png"/>  Test: Sets
 
+1.
+
+<img src="https://user-images.githubusercontent.com/72580574/210882432-a1107f8b-83a9-4a43-a290-26f1d62f65b7.png" width="400" alt="pregunta 1" >
+
+2.
+
+<img src="https://user-images.githubusercontent.com/72580574/210882498-14057683-699b-42eb-b1e8-5106045dd803.png" width="400" alt="pregunta 2" >
+
+3.
+
+<img src="https://user-images.githubusercontent.com/72580574/210882941-e839f095-a117-481e-a9ad-74a13ac06b25.png" width="400" alt="pregunta 3" >
+
+4.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883006-62e34a6c-c40a-4a0b-a432-158e48e9223a.png" width="400" alt="pregunta 4" >
+
+5.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883067-720967b0-a208-40fb-9a6a-fdb7d07ddd8b.png" width="400" alt="pregunta 5" >
+
+6.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883155-7d2fe7f4-5716-4703-9ee0-2d1560018ecd.png" width="400" alt="pregunta 6" >
+
+7.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883230-b245da98-b338-4bc4-9969-58f6b9c5c49b.png" width="400" alt="pregunta 7" >
+
+8.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883285-15b903d5-f945-44b4-8694-2526497ee4b2.png" width="400" alt="pregunta 8" >
+
+9.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883339-e4b3a62f-e7c1-4208-9c6f-4ad358fd02ef.png" width="400" alt="pregunta 9" >
+
+10.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883421-5c8c5be5-dd90-4119-a836-4ea4300f98b3.png" width="400" alt="pregunta 10" >
+
+11.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883501-8fde73ab-b1d2-483e-b67c-c195df01624a.png" width="400" alt="pregunta 11" >
+
+12.
+
+<img src="https://user-images.githubusercontent.com/72580574/210883544-eba6418b-a3d7-4238-95a7-0056a089e9bf.png" width="400" alt="pregunta 12" >
+
 ---
 
 ## :star: 4. How to create and use enums
 
 
-An enum – short for enumeration – is a set of named values we can create and use in our code. They don’t have any special meaning to Swift, but they are more efficient and safer, so you’ll use them a lot in your code.
+An **enum** – short for **enumeration** – is **a set of named values we can create and use in our code**. They don’t have any special meaning to Swift, but they are more efficient and safer, so you’ll use them a lot in your code.
 
 To demonstrate the problem, let’s say you wanted to write some code to let the user select a day of the week. You might start out like this:
 
@@ -640,7 +688,7 @@ That has a space at the end of Friday, and “Friday ” with a space is differe
 
 Using strings for this kind of thing takes some very careful programming, but it’s also pretty inefficient – do we really need to store all the letters of “Friday” to track one single day?
 
-This is where enums come in: they let us define a new data type with a handful of specific values that it can have. Think of a Boolean, that can only have true or false – you can’t set it to “maybe” or “probably”, because that isn’t in the range of values it understands. Enums are the same: we get to list up front the range of values it can have, and Swift will make sure you never make a mistake using them.
+This is where enums come in: **they let us define a new data type with a handful of specific values that it can have**. Think of a Boolean, that can only have true or false – you can’t set it to “maybe” or “probably”, because that isn’t in the range of values it understands. Enums are the same: we get to list up front the range of values it can have, and Swift will make sure you never make a mistake using them.
 
 So, we could rewrite our weekdays into a new enum like this:
 
@@ -666,7 +714,7 @@ day = Weekday.friday
 
 With that change you can’t accidentally use “Friday ” with an extra space in there, or put a month name instead – you must always choose one of the possible days listed in the enum. You’ll even see Swift offer up all possible options when you’ve typed Weekday., because it knows you’re going to select one of the cases.
 
-Swift does two things that make enums a little easier to use. First, when you have many cases in an enum you can just write case once, then separate each case with a comma:
+Swift does two things that make enums a little easier to use. First, **when you have many cases in an enum you can just write case once, then separate each case with a comma**:
 
 ```Swift
 enum Weekday {
@@ -674,7 +722,7 @@ enum Weekday {
 }
 ```
 
-- Second, remember that once you assign a value to a variable or constant, its data type becomes fixed – you can’t set a variable to a string at first, then an integer later on. Well, for enums this means you can skip the enum name after the first assignment, like this:
+- Second, **remember that once you assign a value to a variable or constant, its data type becomes fixed – you can’t set a variable to a string at first, then an integer later on**. Well, for enums this means you can skip the enum name after the first assignment, like this:
 
 ```Swift
 var day = Weekday.monday
